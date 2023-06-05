@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red: #fe3a3a;
+    --hair: #000;
+    --skin: #ffb37f;
+    --blue: #0000ff;
+    --yellow: #ff0 ;
+}
+
+.mario{
+    background-color: var(--red);
+    width: 1rem;
+    height: 1rem;
+    margin: 2rem auto;
+
+    box-shadow:
+    1rem 0 var(--red),
+    2rem 0 var(--red),
+    3rem 0 var(--red),
+    4rem 0 var(--red),
+
+    -1rem 1rem var(--red),
+    0rem 1rem var(--red),
+    1rem 1rem var(--red),
+    2rem 1rem var(--red),
+    3rem 1rem var(--red),
+    4rem 1rem var(--red),
+    5rem 1rem var(--red),
+    6rem 1rem var(--red),
+    7rem 1rem var(--red),
+
+    -1rem 2rem var(--hair),
+    0rem 2rem var(--hair),
+    1rem 2rem var(--hair),
+    2rem 2rem var(--skin),
+    3rem 2rem var(--skin),
+    4rem 2rem var(--hair),
+    5rem 2rem var(--skin),
+
+    -2rem 3rem var(--hair),
+    -1rem 3rem var(--skin),
+    0rem 3rem var(--hair),
+    1rem 3rem var(--skin),
+    2rem 3rem var(--skin),
+    3rem 3rem var(--skin),
+    4rem 3rem var(--hair),
+    5rem 3rem var(--skin),
+    6rem 3rem var(--skin),
+    7rem 3rem var(--skin),
+
+    -2rem 4rem var(--hair),
+    -1rem 4rem var(--skin),
+    0rem 4rem var(--hair),
+    1rem 4rem var(--hair),
+    2rem 4rem var(--skin),
+    3rem 4rem var(--skin),
+    4rem 4rem var(--skin),
+    5rem 4rem var(--hair),
+    6rem 4rem var(--skin),
+    7rem 4rem var(--skin),
+    8rem 4rem var(--skin),
+    8rem 4rem var(--skin),
+
+    -2rem 5rem var(--hair),
+    -1rem 5rem var(--hair),
+    0rem 5rem var(--skin),
+    1rem 5rem var(--skin),
+    2rem 5rem var(--skin),
+    3rem 5rem var(--skin),
+    4rem 5rem var(--hair),
+    5rem 5rem var(--hair),
+    6rem 5rem var(--hair),
+    7rem 5rem var(--hair),
+
+    0rem 6rem var(--skin),
+    1rem 6rem var(--skin),
+    2rem 6rem var(--skin),
+    3rem 6rem var(--skin),
+    4rem 6rem var(--skin),
+    5rem 6rem var(--skin),
+    6rem 6rem var(--skin),
+
+    -1rem 7rem var(--blue),
+    0rem 7rem var(--blue),
+    1rem 7rem var(--red),
+    2rem 7rem var(--blue),
+    3rem 7rem var(--blue),
+    4rem 7rem var(--blue),
+
+    -2rem 8rem var(--blue),
+    -1rem 8rem var(--blue),
+    0rem 8rem var(--blue),
+    1rem 8rem var(--red),
+    2rem 8rem var(--blue),
+    3rem 8rem var(--blue),
+    4rem 8rem var(--red),
+    5rem 8rem var(--blue),
+    6rem 8rem var(--blue),
+    7rem 8rem var(--blue),
+
+    -3rem 9rem var(--blue),
+    -2rem 9rem var(--blue),
+    -1rem 9rem var(--blue),
+    0rem 9rem var(--blue),
+    1rem 9rem var(--red),
+    2rem 9rem var(--blue),
+    3rem 9rem var(--blue),
+    4rem 9rem var(--red),
+    5rem 9rem var(--blue),
+    6rem 9rem var(--blue),
+    7rem 9rem var(--blue),
+    8rem 9rem var(--blue),
+
+    -3rem 10rem var(--skin),
+    -2rem 10rem var(--skin),
+    -1rem 10rem var(--blue),
+    0rem 10rem var(--blue),
+    1rem 10rem var(--red),
+    2rem 10rem var(--red),
+    3rem 10rem var(--red),
+    4rem 10rem var(--red),
+    5rem 10rem var(--blue),
+    6rem 10rem var(--blue),
+    7rem 10rem var(--skin),
+    8rem 10rem var(--skin),
+
+    -3rem 11rem var(--skin),
+    -2rem 11rem var(--skin),
+    -1rem 11rem var(--skin),
+    0rem 11rem var(--red),
+    1rem 11rem var(--yellow),
+    2rem 11rem var(--red),
+    3rem 11rem var(--red),
+    4rem 11rem var(--yellow),
+    5rem 11rem var(--red),
+    6rem 11rem var(--skin),
+    7rem 11rem var(--skin),
+    8rem 11rem var(--skin),
+
+    -3rem 12rem var(--skin),
+    -2rem 12rem var(--skin),
+    -1rem 12rem var(--red),
+    0rem 12rem var(--red),
+    1rem 12rem var(--red),
+    2rem 12rem var(--red),
+    3rem 12rem var(--red),
+    4rem 12rem var(--red),
+    5rem 12rem var(--red),
+    6rem 12rem var(--red),
+    7rem 12rem var(--skin),
+    8rem 12rem var(--skin),
+
+    -1rem 13rem var(--red),
+    0rem 13rem var(--red),
+    1rem 13rem var(--red),
+    4rem 13rem var(--red),
+    5rem 13rem var(--red),
+    6rem 13rem var(--red),
+
+    -2rem 14rem var(--hair),
+    -1rem 14rem var(--hair),
+    0rem 14rem var(--hair),
+    5rem 14rem var(--hair),
+    6rem 14rem var(--hair),
+    7rem 14rem var(--hair),
+
+    
+    -3rem 15rem var(--hair),
+    -2rem 15rem var(--hair),
+    -1rem 15rem var(--hair),
+    0rem 15rem var(--hair),
+    5rem 15rem var(--hair),
+    6rem 15rem var(--hair),
+    7rem 15rem var(--hair),
+    8rem 15rem var(--hair),
+
+
+
+
+    -5rem 40rem var(--hair);
+}
